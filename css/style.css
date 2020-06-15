@@ -1,0 +1,97 @@
+/* exercise 1 - box grows across screen */
+/*
+article {
+ width: 100px;
+ height: 100px;
+ background-color: purple;
+ transition-property: width;
+ transition-duration: 3.5s;
+ transition-timing-function: ease-in;
+ transition-delay: 1s;
+}
+
+article:hover {
+  width: 300px;
+} */
+
+/* exercise 2 - colour changing ball */
+
+/* article {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 100%;
+  /* transition: width 3.5s, height 3.5s;
+  transition-timing-function: ease-in; */
+/* } */
+
+/* article:hover {
+  background-color: yellow;
+} */
+
+/* exercise 3 - ball to square to ball */
+
+/* article {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 100%;
+  animation: shapeshift;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; */
+}
+
+@keyframes shapeshift {
+  0%, 100% {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 100%;
+  }
+
+  50% {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 0%;
+  }
+} */
+
+/* exercise 4 - bouncing ball */
+
+article {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 100%;
+  animation: bouncing;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes bouncing {
+  0%, 100% {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 100%;
+  }
+
+  50% {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 100%;
+  }
+
+}
